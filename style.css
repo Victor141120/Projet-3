@@ -1,0 +1,668 @@
+/* CONFIG POLICE WEB (Shrinkland) */
+
+@font-face {
+    font-family: 'S-regular';
+    src: url(S-Regular.otf);
+}
+
+
+/* CONFIG POLICE WEB (Roboto) */
+
+@font-face {
+    font-family: 'R-bold';
+    src: url(R-bold.ttf);
+}
+
+@font-face {
+    font-family: 'R-light';
+    src: url(R-light.ttf);
+}
+
+@font-face {
+    font-family: 'R-medium';
+    src: url(R-medium.ttf);
+}
+
+@font-face {
+    font-family: 'R-regular';
+    src: url(R-regular.ttf);
+}
+
+@font-face {
+    font-family: 'R-finner';
+    src: url(R-finner.ttf);
+}
+
+@font-face {
+    font-family: 'R-alt';
+    src: url(R-alt.ttf);
+}
+
+
+
+
+
+/*________________________________________________________________*/
+
+                                               /* Debut du CSS */
+/*________________________________________________________________*/
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+                                                      /* HEADER */
+
+
+
+
+
+.img_logo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.localisation 
+{
+    font-family: R-light, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: solid 1px rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228);
+    box-shadow: inset 0px 1px 3px 0.1pt rgb(172, 172, 172);
+}
+
+
+.logo_local
+{
+    display: inline-block;
+    padding-right: 3%;
+}
+
+
+
+
+
+
+                                                            /* BODY */
+
+
+
+
+
+
+
+.explorer 
+{
+    display: flex;
+    flex-direction: column ;
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding-top: 13%;
+    border: solid 1px rgb(245, 245, 245);
+    padding-bottom: 15%;
+    background-color: rgb(245, 245, 245);
+}
+
+
+.t1
+{
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+
+.p1
+{
+    font-family: R-light, Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-bottom:8%;
+}
+
+
+.explorer2
+{
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    border: solid 1px white;
+    background: linear-gradient(violet, rgb(199, 68, 199));
+    padding: 15px 25px 15px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    color: white;
+}
+
+
+
+
+                                                 /* FONCTIONNEMENT */
+
+
+
+
+
+
+
+.titre_f
+{
+    font-size: x-large;
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+
+.fonctionnement
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    margin-top: -5px;
+}
+
+
+.fonction
+{
+    display: flex;
+    width: 75%;
+    margin-top: 35px;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    box-shadow: #c7c6c6 0px 0px 6px 2px;
+    align-items: center ;
+    border-radius: 30px;
+    padding: 15px 25px 15px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.cercle
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #a2f2d3;
+    border-radius: 100%;
+    background-color: #9200db;
+    color: white;
+    font-size: 14px;
+    left: -12px;
+}
+
+
+.icone_f
+{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+
+
+
+
+                                                    /* LES RESTAURANTS */
+
+
+
+
+
+
+.conteneur_resto
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 55px;
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    border: rgb(245, 245, 245) solid 1px;
+    padding-top: 60px;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 35px;
+}
+
+
+.titre_r
+{
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom: -5px;
+}
+
+
+.section_resto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+
+.minibloc1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    background-color: #a2f2d3;
+    position: absolute;
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    border-radius: 4%;
+    color: #438069 ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    top: 15px;
+    right: 0px;
+    box-shadow: rgb(184, 184, 184) 1px 0px 5px 1px;
+}
+
+
+.boite_resto
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.img_resto
+{
+    width: 110%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20px 0% 0%;
+}
+
+
+.texte_resto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 110%;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+.h3_resto
+{
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+
+.h4_resto
+{
+    font-family: R-light, Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+
+.conteneur_icone 
+{
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+.icone_r
+{
+    display: flex;
+    justify-content: right ;
+    margin-right: 15px;
+    margin-top: -20px;
+}
+
+.icone_r2
+{
+    position: absolute;
+    width: auto;
+    margin-right: 13px;
+    font-size: 19px;
+    margin-top: -22px;
+    opacity: 0;
+
+}
+
+
+.icone_r2:hover
+{
+    color: #9200db;
+    opacity: 1;
+}
+
+.icone_r:hover
+{
+    color: #9200db;
+}
+
+
+
+
+                                                   /* FOOTER */
+
+
+
+
+
+
+
+.footer_p3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(41, 41, 41);
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+
+.ohmyfood
+{
+    font-family: S-Regular, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+
+.texte_footer
+{
+    display: flex;
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+.icone_footer
+{
+    display: flex;
+    flex-direction: row;
+    width: 35px;
+    margin-right: -10px;
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+
+.texte_footer2
+{
+    display: flex;
+    font-family: R-light, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                   /* PAGE 2 - A la Francaise*/
+
+
+
+
+
+       /*Header*/
+
+.img_p2
+{
+    display: flex;
+    padding-top: 15px;
+
+}   
+
+.alafrancaise
+{
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+
+
+
+       /*BODY*/
+
+
+
+
+
+.conteneur_menu
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 245) ;
+    border-radius: 35px 35px 0% 0%;
+    padding-bottom: 25px;
+    margin-top: -35px;
+
+}      
+
+
+.conteneur_titre
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.grandtitre_menu
+{
+    font-family: S-regular, Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 35px ;
+
+}
+
+.icone_m
+{
+    display: flex;
+    justify-content: right;
+    width: auto;
+    margin-right: 35px;
+    font-size: 21px;
+    transition: all 0.3s;
+
+}
+
+
+.icone_m2
+{
+    position: absolute;
+    width: auto;
+    margin-left: -1px;
+    font-size: 23px;
+    margin-top: -22px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+
+.icone_m2:hover
+{
+    color: #9200db;
+    opacity: 1;
+}
+
+.icone_m:hover
+{
+    color: #9200db;
+}
+
+
+.minititre
+{
+    display: inline-block;
+    font-family: R-finner, Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+
+}
+
+
+.underline_mini
+{
+    border-bottom: 2px solid rgb(0, 238, 255);
+    margin-right: 85%;
+    padding-top: 35px;
+    margin-left: 20px;
+    width: 30px;
+}
+
+
+.section_menu
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteneur_menu2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boite_menu
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: left;
+    margin-top: 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: #c7c6c6 0px 0px 6px 2px;
+
+}
+
+.texte_menu
+{
+    margin-left: 15px;
+
+}
+
+
+.h3_menu
+{
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+
+.h4_menu
+{
+    font-family: R-finner;
+    font-size: 13px;
+    margin-top: 5px;
+
+}
+
+
+.bouton_vert
+{
+    display: flex;
+    background-color: greenyellow;
+    width: 50px;
+}
+
+
+.euro 
+{
+    display: flex;
+    justify-content: right;
+    margin-top: -20px;
+    margin-right: 15px;
+    font-size: 13px;
+
+}
+
+
+
+
+
+
+
+       /*BOUTON*/
+
+
+       
+.commander
+{
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    border: solid 1px white;
+    background: linear-gradient(violet, rgb(199, 68, 199));
+    padding: 15px 35px 15px 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    color: white;
+    margin-top: -25px;
+}
+
+
+
+
