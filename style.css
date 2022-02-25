@@ -146,6 +146,10 @@
     color: white;
 }
 
+.explorer2:hover
+{
+    transform: scale(1.1);
+}
 
 
 
@@ -192,7 +196,6 @@
     margin-right: auto;
     position: relative;
 }
-
 
 .cercle
 {
@@ -294,6 +297,12 @@
     width: 80%;
     align-items: center;
     margin-top: 30px;
+}
+
+
+.boite_resto:hover
+{
+    transform: scale(1.1);
 }
 
 
@@ -491,7 +500,6 @@
     font-family: R-regular, Arial, Helvetica, sans-serif;
     background-color: rgb(245, 245, 245) ;
     border-radius: 35px 35px 0% 0%;
-    padding-bottom: 25px;
     margin-top: -35px;
 
 }      
@@ -569,78 +577,116 @@
 }
 
 
-.section_menu
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.conteneur_menu2
-{
-    display: flex;
-    justify-content: space-between;
-}
 
-.boite_menu
+
+
+                                                      /*CONTENU ET MENU*/
+
+
+
+
+.conteneur_global
 {
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    align-items: left;
+    background-color: white;
+    width: auto;
+    height: 70px;
     margin-top: 15px;
-    border: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: white;
     border-radius: 15px;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    overflow: hidden;
+    padding-left: 10px;
+    justify-content: space-between;
     box-shadow: #c7c6c6 0px 0px 6px 2px;
+}
+
+.conteneur_global:hover
+{
+    transform: scale(0.9);
+}
+
+.section_menu
+{
+    padding-bottom: 10px;
+}
+
+.conteneur_global:hover .coche 
+{
+    background-color: rgb(166, 235, 166);
+    width: 60px;
+    border-radius: 0px 15px 15px 0px;
+    height: auto;
+}
+
+.conteneur_global:hover .icone
+{
+    transform: rotate(360deg)
 
 }
 
-.texte_menu
+.texte_principal
 {
-    margin-left: 15px;
-
+    margin-top: 10px;
+    overflow: hidden;
 }
 
-
-.h3_menu
+.soustexte
 {
-    font-family: R-regular, Arial, Helvetica, sans-serif;
-    font-size: 16px;
-
-}
-
-
-.h4_menu
-{
-    font-family: R-finner;
-    font-size: 13px;
     margin-top: 5px;
+}
+
+.texte_principal h3
+{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.texte_principal p
+{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
 
 }
 
-
-.bouton_vert
+.conteneur_prixcoche
 {
     display: flex;
-    background-color: greenyellow;
-    width: 50px;
+
 }
 
 
-.euro 
+.coche
 {
     display: flex;
-    justify-content: right;
-    margin-top: -20px;
-    margin-right: 15px;
-    font-size: 13px;
-
+    background-color: green;
+    width: 0px;
+    overflow: hidden;
+    transition: width 1s;
+    border-radius: 0px 15px 15px 0px;
+    align-items: center;
+    justify-content: center;
 }
 
+.icone
+{
+    transition: all 1.5s;
+    color: white;
+    font-size: 24px;
+}
 
+.euro_text
+{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -655,7 +701,7 @@
     font-family: R-regular, Arial, Helvetica, sans-serif;
     border: solid 1px white;
     background: linear-gradient(violet, rgb(199, 68, 199));
-    padding: 15px 35px 15px 35px;
+    padding: 15px 50px 15px 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
@@ -663,6 +709,20 @@
     margin-top: -25px;
 }
 
+.commander:hover
+{
+    transform: scale(1.1);
+}
 
+a:link
+{
+    text-decoration: none;
+    color: white;
+}
+
+a
+{
+    color: white;
+}
 
 
