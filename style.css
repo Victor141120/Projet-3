@@ -607,11 +607,29 @@
     padding-left: 10px;
     justify-content: space-between;
     box-shadow: #c7c6c6 0px 0px 6px 2px;
+    animation: fadein 2s;
+    animation-fill-mode: both;
 }
+
+.animation_delay_1
+{
+    animation-delay: 0.5s;
+}
+
+.animation_delay_2
+{
+    animation-delay: 1s;
+}
+
+.animation_delay_3
+{
+    animation-delay: 1.5s;
+}
+
 
 .conteneur_global:hover
 {
-    transform: scale(0.9);
+    
 }
 
 .section_menu
@@ -669,7 +687,7 @@ text-overflow: ellipsis;
 .coche
 {
     display: flex;
-    background-color: green;
+    background-color: rgb(166, 235, 166);
     width: 0px;
     overflow: hidden;
     transition: width 1s;
@@ -704,6 +722,7 @@ text-overflow: ellipsis;
        
 .commander
 {
+    display: flex;
     font-family: R-regular, Arial, Helvetica, sans-serif;
     border: solid 1px white;
     background: linear-gradient(violet, rgb(199, 68, 199));
@@ -732,3 +751,15 @@ a
 }
 
 
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-top: 50px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 15px;
+    }
+
+    
+}
