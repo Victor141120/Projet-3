@@ -58,11 +58,17 @@ body
 }
 
 
+
+
+
+
+
+
+
+
+
+
                                                       /* HEADER */
-
-
-
-
 
 .img_logo
 {
@@ -82,7 +88,6 @@ body
     margin-top: 15px;
     padding-top: 13px;
     padding-bottom: 13px;
-    border: solid 1px rgb(228, 228, 228);
     background-color: rgb(228, 228, 228);
     box-shadow: inset 0px 1px 3px 0.1pt rgb(172, 172, 172);
 }
@@ -93,7 +98,6 @@ body
     display: inline-block;
     padding-right: 10px;
 }
-
 
 
 .chargement
@@ -110,9 +114,9 @@ body
     z-index: 10000;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
+
 
 .items_conteneur
 {
@@ -120,6 +124,7 @@ body
     width: 100px;
     justify-content: space-between;
 }
+
 
 .items 
 {
@@ -130,6 +135,10 @@ body
     animation-duration: 0.6s;
     background-color: blueviolet;
 }
+
+
+                                                      /* ANIMATION CHARGEMENT DU SITE */
+
 
 .item_animation_delay1
 {
@@ -165,12 +174,13 @@ body
     
 }
 
+
+
+
+
+
+
                                                             /* BODY */
-
-
-
-
-
 
 
 .explorer 
@@ -181,7 +191,6 @@ body
     text-align: center;
     justify-content: center;
     padding-top: 20px;
-    border: solid 1px rgb(245, 245, 245);
     padding-bottom: 20px;
     background-color: rgb(245, 245, 245);
 }
@@ -214,6 +223,7 @@ body
     color: white;
 }
 
+
 .explorer2:hover
 {
     transform: scale(1.1);
@@ -221,11 +231,14 @@ body
 
 
 
+
+
+
+
+
+
+
                                                  /* FONCTIONNEMENT */
-
-
-
-
 
 
 
@@ -255,7 +268,6 @@ body
     display: flex;
     width: 65%;
     margin-top: 35px;
-    border: 1px solid rgb(245, 245, 245);
     background-color: rgb(245, 245, 245);
     box-shadow: #c7c6c6 0px 0px 6px 2px;
     align-items: center ;
@@ -265,6 +277,7 @@ body
     margin-right: auto;
     position: relative;
 }
+
 
 .cercle
 {
@@ -297,11 +310,14 @@ body
 
 
 
+
+
+
+
+
+
+
                                                     /* LES RESTAURANTS */
-
-
-
-
 
 
 .conteneur_resto
@@ -311,7 +327,6 @@ body
     flex-direction: column;
     margin-top: 55px;
     font-family: R-regular, Arial, Helvetica, sans-serif;
-    border: rgb(245, 245, 245) solid 1px;
     padding-top: 60px;
     background-color: rgb(245, 245, 245);
     padding-bottom: 35px;
@@ -461,13 +476,15 @@ body
 
 
 
+
+
+
+
+
+
+
+
                                                    /* FOOTER */
-
-
-
-
-
-
 
 .footer_p3
 {
@@ -537,13 +554,13 @@ body
 
 
 
-                                                   /* PAGE 2 - A la Francaise*/
+                                                   /* AUTRES PAGES DU SITE */
 
 
 
 
 
-       /*Header*/
+                                                            /* HEADER */
 
 .img_p2
 {
@@ -562,7 +579,7 @@ body
 
 
 
-       /*BODY*/
+                                                      /* BODY */
 
 
 
@@ -581,6 +598,7 @@ body
 
 }      
 
+
 .section_menu 
 {
     display: flex;
@@ -592,6 +610,7 @@ body
     flex-direction: column;
 }
 
+
 .section_flex
 {
     display: flex;
@@ -600,13 +619,13 @@ body
 
 }
 
+
 .section_flex2
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 85px;
-
 }
 
 
@@ -618,14 +637,15 @@ body
     position: relative;
 }
 
+
 .grandtitre_menu
 {
     font-family: S-regular, Arial, Helvetica, sans-serif;
     margin-left: 20px;
     margin-bottom: 20px;
     margin-top: 35px ;
-
 }
+
 
 .icone_m
 {
@@ -635,7 +655,6 @@ body
     margin-right: 35px;
     font-size: 21px;
     transition: all 0.3s;
-
 }
 
 
@@ -668,7 +687,6 @@ body
     display: inline-block;
     font-family: R-finner, Arial, Helvetica, sans-serif;
     padding-bottom: 5px;
-
 }
 
 
@@ -686,8 +704,7 @@ body
 
 
 
-                                                      /*CONTENU ET MENU*/
-
+                                                      /* MENU + FONCTIONNEMENT */
 
 
 
@@ -712,6 +729,9 @@ body
 }
 
 
+
+                                                      /* ZONE ANIMATION */
+
 .animation_delay_1
 {
     animation-delay: 0.5s;
@@ -728,12 +748,6 @@ body
 }
 
 
-.conteneur_global:hover
-{
-    
-}
-
-
 .conteneur_global:hover .coche 
 {
     background-color: rgb(166, 235, 166);
@@ -745,8 +759,13 @@ body
 .conteneur_global:hover .icone
 {
     transform: rotate(360deg)
-
 }
+
+
+
+
+
+                                                      /* FIN DES ANIMATIONS */
 
 .texte_principal
 {
@@ -754,10 +773,12 @@ body
     overflow: hidden;
 }
 
+
 .soustexte
 {
     margin-top: 5px;
 }
+
 
 .texte_principal h3
 {
@@ -766,18 +787,18 @@ overflow: hidden;
 text-overflow: ellipsis;
 }
 
+
 .texte_principal p
 {
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
-
 }
+
 
 .conteneur_prixcoche
 {
     display: flex;
-
 }
 
 
@@ -793,12 +814,14 @@ text-overflow: ellipsis;
     justify-content: center;
 }
 
+
 .icone
 {
     transition: all 1.5s;
     color: white;
     font-size: 24px;
 }
+
 
 .euro_text
 {
@@ -813,7 +836,7 @@ text-overflow: ellipsis;
 
 
 
-       /*BOUTON*/
+                                                      /* BOUTON DE COMMANDE */
 
 
        
@@ -830,16 +853,19 @@ text-overflow: ellipsis;
     margin-top: -25px;
 }
 
+
 .commander:hover
 {
     transform: scale(1.1);
 }
+
 
 a:link
 {
     text-decoration: none;
     color: white;
 }
+
 
 a
 {
@@ -869,7 +895,7 @@ a
 
 /*________________________________________________________________*/
 
-                                               /* RESPONSIVE INVERSE */
+                                               /* RESPONSIVE POSITIF */
 /*________________________________________________________________*/
 
 @media (min-width: 1220px ) {
